@@ -43,6 +43,7 @@ medical-rag/
 └── README.md # Project description
 
 
+
 ---
 
 ## 📊 Workflow
@@ -68,7 +69,15 @@ medical-rag/
 
 ### 1. Clone the Repository
 
-```bash
-git clone https://github.com/yourusername/medical-rag.git
+
+git clone https://github.com/badrunnahar/medical-rag.git
 cd medical-rag
 
+### 2. Install Dependencies
+pip install -r requirements.txt
+
+### 3. Launch the Notebook
+jupyter notebook medical-rag.ipynb
+
+
+```bash
